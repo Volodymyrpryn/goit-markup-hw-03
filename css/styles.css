@@ -1,0 +1,242 @@
+:root {
+  --main-font: 'Roboto', sans-serif;
+  --second-font: 'Raleway', sans-serif;
+  --headline-color: #212121;
+  --paragraph-color: #757575;
+  --hover-color: #2196f3;
+  --background-color: #e5e5e5;
+}
+
+body {
+  font-size: 14px;
+  font-family: var(--main-font), 'Open Sans', sans-serif;
+  color: #212121;
+  background: #ffffff;
+}
+header {
+  border: 1px solid #ececec;
+  display: flex;
+  flex-direction: row;
+  height: 80px;
+}
+.nav-list {
+  text-decoration: none;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+}
+.contacts {
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+/* logo */
+.logo {
+  font-family: var(--second-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+  color: var(--hover-color);
+  margin: 24px 0 25px 215px;
+}
+.logo span {
+  color: #000000;
+}
+/* nav */
+.nav-list-item {
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.142;
+  color: #212121;
+  text-decoration: none;
+}
+.nav-list-item:hover {
+  color: var(--hover-color);
+}
+/* contacts */
+.cont-list-item {
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.142;
+  color: #757575;
+  text-decoration: none;
+}
+.cont-list-item:hover,
+:focus {
+  color: var(--hover-color);
+}
+/* main */
+/* filters */
+.filters-list {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  margin: 94px auto 50px auto;
+  justify-content: center;
+}
+.filters-button {
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  text-align: center;
+  color: var(--headline-color);
+  border-radius: 4px;
+  border-color: #f5f4fa;
+  background-color: #f5f4fa;
+  border: none;
+  cursor: pointer;
+}
+.filters-button:hover,
+.filters-button:focus {
+  color: #ffffff;
+  background-color: var(--hover-color);
+  box-shadow: 0px 2px 2px 0px #0000001f;
+
+  box-shadow: 0px 1px 2px 0px #00000014;
+
+  box-shadow: 0px 3px 1px 0px #0000001a;
+}
+/* Projects */
+.projects-list-item {
+  border: 1px solid #eeeeee;
+  width: 370px;
+  height: 404px;
+  margin: 30px;
+  padding-bottom: 24px;
+}
+.projects-list-item h3 {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2em;
+  letter-spacing: 0.06em;
+  color: var(--headline-color);
+  margin-left: 24px;
+}
+.projects-list-item p {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.875em;
+  letter-spacing: 0.03em;
+  color: var(--paragraph-color);
+  margin-left: 24px;
+}
+/* Footer */
+
+.footer-logo {
+  font-family: var(--second-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+  color: var(--hover-color);
+}
+.footer-logo span {
+  color: #ffffff;
+}
+.footer-contacts {
+  background: #2f303a;
+  width: 1600px;
+  height: 252px;
+}
+.footer-contacts-list {
+  list-style-type: none;
+}
+.footer-address {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.714em;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.footer-mail-tel {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-address,
+.footer-mail-tel {
+  font-style: normal;
+  text-decoration: none;
+}
+
+/* Main page */
+/* Hero section */
+.hero-section {
+  background: #2f303a;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.363;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.hero-button {
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  width: 200px;
+  height: 50px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.875;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+}
+/* Our services */
+
+.our-services-title {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
+.info-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.our-team {
+  background-color: #f5f4fa;
+}
+
+.our-team-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.our-services-paragraph {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+.our-team-position {
+  font-size: 16px;
+  line-height: 1.187;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
